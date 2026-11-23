@@ -10,9 +10,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT =
-  "The lighthouse log ends on a Tuesday. Every page before it is weather and oil levels, in the same neat hand. " +
-  "The last page is one line, in handwriting no one recognizes: 'The light was already on when I arrived.' " +
-  "No keeper has lived here since. The light has never gone out.";
+  "The lighthouse log ends on a Tuesday. Every page before it is weather and oil, in the same neat hand. " +
+  "The last page is one line, in a hand no one recognizes: 'The light was already on when I arrived.' " +
+  "No keeper lives here now. The light has never gone out. Who keeps it lit?";
 
 const MIN = 1;
 const MAX = 280;
